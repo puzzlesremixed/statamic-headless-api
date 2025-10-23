@@ -12,6 +12,7 @@ return [
     */
 
     'enabled' => env('CP_ENABLED', true),
+    'debug' => true,
 
     'route' => env('CP_ROUTE', 'cp'),
 

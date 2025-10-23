@@ -1,0 +1,14 @@
+title: News
+template: news/
+layout: layout
+revisions: false
+date: true
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: 'Live Preview'
+    url: 'http://localhost:3000/api/preview?secret={your_secret_token}&slug=/news/{slug}'
+    refresh: false

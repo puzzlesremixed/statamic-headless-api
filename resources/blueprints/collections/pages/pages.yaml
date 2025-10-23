@@ -1,0 +1,9 @@
+title: Page
+fields:
+  -
+    handle: title
+    field:
+      type: text
+      required: true
+      validate:
+        - required

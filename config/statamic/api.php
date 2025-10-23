@@ -18,18 +18,24 @@ return [
     'enabled' => env('STATAMIC_API_ENABLED', false),
 
     'resources' => [
-        'collections' => false,
-        'navs' => false,
-        'taxonomies' => false,
-        'assets' => false,
-        'globals' => false,
-        'forms' => false,
-        'users' => false,
+        'collections' => [
+            // All collection endpoints enabled
+            '*' => [
+                'enabled' => true,
+                'allowed_filters' => ['title', 'slug', 'uri'],
+            ],
+        ],
+        'navs' => true,
+        'taxonomies' => true,
+        'assets' => true,
+        'globals' => true,
+        'forms' => true,
+        'users' => true,
     ],
 
     'route' => env('STATAMIC_API_ROUTE', 'api'),
 
-    /*
+    /*w
     |--------------------------------------------------------------------------
     | Middleware & Authentication
     |--------------------------------------------------------------------------

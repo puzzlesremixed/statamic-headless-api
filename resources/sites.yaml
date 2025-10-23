@@ -1,0 +1,5 @@
+default:
+  name: '{{ config:app:name }}'
+  lang: '{{ config:app:locale }}'
+  locale: '{{ config:app:locale }}'
+  url: 'http://localhost:3000/'
