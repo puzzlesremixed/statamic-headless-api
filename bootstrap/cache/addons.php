@@ -22,7 +22,7 @@
     'marketplaceUrl' => 'https://statamic.com/addons/statamic/eloquent-driver',
     'marketplaceSellerSlug' => 'statamic',
     'isCommercial' => false,
-    'latestVersion' => '4.33.0',
+    'latestVersion' => '4.34.0',
   ),
   'statamic/ssg' => 
   array (
