@@ -1,0 +1,6 @@
+[
+    { "name": "Default", "handle": "default" },
+    { "name": "Home", "handle": "home" },
+    { "name": "News Index", "handle": "news-index" },
+    { "name": "News Article", "handle": "news-article" }
+]

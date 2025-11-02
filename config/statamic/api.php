@@ -22,7 +22,7 @@ return [
             // All collection endpoints enabled
             '*' => [
                 'enabled' => true,
-                'allowed_filters' => ['title', 'slug', 'uri'],
+                'allowed_filters' => ['title', 'slug', 'uri','site','origin','origin_id'],
             ],
         ],
         'navs' => true,
